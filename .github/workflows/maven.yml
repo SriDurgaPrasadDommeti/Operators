@@ -22,7 +22,7 @@ jobs:
  
       # Step 3: Build JAR
       - name: Build JAR
-        run: mvn -B package -DskipTests --file opearators_api/pom.xml
+        run: mvn -B package -DskipTests --file Opearators_Api/pom.xml
  
       # Step 4: Auto-generate Dockerfile
       - name: Create Dockerfile
